@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تلاوات قرآنية - الشيخ محمد</title>
+
+  <!-- خط رقعة -->
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #1a3d2c;
+      font-family: "Aref Ruqaa", "Traditional Arabic", "Arial", serif;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .voice-box {
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      text-align: center;
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .voice-title {
+      margin-bottom: 10px;
+      font-size: 22px;
+      line-height: 1.6;
+    }
+
+    audio {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    /* الزرار أسفل الصفحة */
+    .bottom-link {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .bottom-link a {
+      text-decoration: none;
+      background-color: darkblue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-family: "Aref Ruqaa", serif;
+      transition: background 0.3s;
+    }
+
+    .bottom-link a:hover {
+      background-color: #002366;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 26px; }
+      h2 { font-size: 16px; right: 12px; top: 8px; }
+      .voice-title { font-size: 20px; }
+      .bottom-link a { font-size: 18px; padding: 8px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>تلاوات فضيلة الشيخ محمد صديق المنشاوي رحمه الله</h1>
+
+  <!-- الفويس الأول -->
+  <div class="voice-box">
+    <div class="voice-title">سورة يس كاملة</div>
+    <audio src="فيد1.mp3" controls></audio>
+  </div>
+
+  <!-- الفويس الثاني -->
+  <div class="voice-box">
+    <div class="voice-title">سورة الطور كاملة</div>
+    <audio src="فيد2.mp3" controls></audio>
+  </div>
+
+  <!-- الفويس الثالث -->
+  <div class="voice-box">
+    <div class="voice-title">سورة إبراهيم كاملة</div>
+    <audio src="فيد3.mp3" controls></audio>
+  </div>
+
+  <!-- الزرار أسفل الصفحة -->
+  <div class="bottom-link">
+    <a href="الاساسي.html">العودة إلى الصفحة الأساسية</a>
+    <a href="مقاطع مرئيه.. قران.html">انتقل إلى صفحة الفيديوهات القرآنية</a>
+        <a href="الاناشيد.html">انتقل إلى صفحة الأناشيد</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فيديوهات الأناشيد</title>
+
+  <!-- خط رقعة (Aref Ruqaa) -->
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #1a3d2c;
+      font-family: "Aref Ruqaa", "Traditional Arabic", "Arial", serif;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .video-box {
+      width: 90%;
+      max-width: 800px;
+      position: relative;
+      text-align: center;
+    }
+
+    .corner-text {
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    }
+
+    /* الزرار في أسفل الصفحة */
+    .bottom-link {
+      margin-top: 30px;
+    }
+
+    .bottom-link a {
+      text-decoration: none;
+      background-color: darkblue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-family: "Aref Ruqaa", serif;
+      transition: background 0.3s;
+    }
+
+    .bottom-link a:hover {
+      background-color: #002366;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 26px; }
+      h2 { font-size: 16px; right: 12px; top: 8px; }
+      .corner-text { font-size: 18px; }
+      .bottom-link a { font-size: 18px; padding: 8px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>صفحة الاناشيد </h1>
+  <h2>صلي علي محمد❤ </h2>
+
+  <!-- الفيديو الأول -->
+  <div class="video-box">
+    <div class="corner-text">نشيد 1</div>
+    <video src="نشيد.mp4" controls></video>
+  </div>
+
+  <!-- الفيديو الثاني -->
+  <div class="video-box">
+    <div class="corner-text">نشيد 2</div>
+    <video src="نشيد2.mp4" controls></video>
+  </div>
+
+  <!-- الفيديو الثالث -->
+  <div class="video-box">
+    <div class="corner-text">نشيد 3</div>
+    <video src="نشيد3.mp4" controls></video>
+  </div>
+
+  <div class="bottom-link" style="text-align:center;">
+  <a href="الاساسي.html" style="display:block; margin-bottom:10px;">العوده إلى الصفحة الأساسية</a>
+  <a href="صفحه القران.html" style="display:block; margin-bottom:10px;">انتقل إلى صفحة التلاوات</a>
+  <a href="مقاطع مرئيه.. قران.html" style="display:block;">انتقل إلى الفيديوهات القرآنية</a>
+</div>
+
+
+</body>
+</html>
